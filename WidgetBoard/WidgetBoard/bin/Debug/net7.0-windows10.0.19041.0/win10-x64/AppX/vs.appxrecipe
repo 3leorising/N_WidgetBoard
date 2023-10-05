@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-05T20:39:33.970</Modified>
+      <Modified>2023-10-05T21:25:39.327</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-05T20:39:33.802</Modified>
+      <Modified>2023-10-05T21:25:39.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WidgetBoard.runtimeconfig.json">
       <PackagePath>WidgetBoard.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WidgetBoard.dll">
       <PackagePath>WidgetBoard.dll</PackagePath>
-      <Modified>2023-10-05T20:39:32.863</Modified>
+      <Modified>2023-10-05T21:25:38.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WidgetBoard.exe</PackagePath>
-      <Modified>2023-10-05T20:39:32.875</Modified>
+      <Modified>2023-10-05T21:25:38.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WidgetBoard.deps.json">
       <PackagePath>WidgetBoard.deps.json</PackagePath>
@@ -967,187 +967,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-10-05T20:18:18.274</Modified>
+      <Modified>2023-10-05T21:25:08.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.392</Modified>
+      <Modified>2023-10-05T21:25:35.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.398</Modified>
+      <Modified>2023-10-05T21:25:35.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.403</Modified>
+      <Modified>2023-10-05T21:25:36.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.411</Modified>
+      <Modified>2023-10-05T21:25:37.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.444</Modified>
+      <Modified>2023-10-05T21:25:37.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.305</Modified>
+      <Modified>2023-10-05T21:25:19.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.307</Modified>
+      <Modified>2023-10-05T21:25:19.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.313</Modified>
+      <Modified>2023-10-05T21:25:21.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.308</Modified>
+      <Modified>2023-10-05T21:25:20.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.309</Modified>
+      <Modified>2023-10-05T21:25:20.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.296</Modified>
+      <Modified>2023-10-05T21:25:15.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.298</Modified>
+      <Modified>2023-10-05T21:25:16.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.304</Modified>
+      <Modified>2023-10-05T21:25:18.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.299</Modified>
+      <Modified>2023-10-05T21:25:17.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.300</Modified>
+      <Modified>2023-10-05T21:25:17.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.278</Modified>
+      <Modified>2023-10-05T21:25:09.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.280</Modified>
+      <Modified>2023-10-05T21:25:10.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.281</Modified>
+      <Modified>2023-10-05T21:25:10.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.283</Modified>
+      <Modified>2023-10-05T21:25:11.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.286</Modified>
+      <Modified>2023-10-05T21:25:11.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.287</Modified>
+      <Modified>2023-10-05T21:25:12.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.289</Modified>
+      <Modified>2023-10-05T21:25:13.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.295</Modified>
+      <Modified>2023-10-05T21:25:15.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.290</Modified>
+      <Modified>2023-10-05T21:25:13.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.291</Modified>
+      <Modified>2023-10-05T21:25:14.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.338</Modified>
+      <Modified>2023-10-05T21:25:28.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.340</Modified>
+      <Modified>2023-10-05T21:25:29.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.343</Modified>
+      <Modified>2023-10-05T21:25:30.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.347</Modified>
+      <Modified>2023-10-05T21:25:30.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.355</Modified>
+      <Modified>2023-10-05T21:25:31.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.324</Modified>
+      <Modified>2023-10-05T21:25:25.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.325</Modified>
+      <Modified>2023-10-05T21:25:26.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.329</Modified>
+      <Modified>2023-10-05T21:25:26.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.331</Modified>
+      <Modified>2023-10-05T21:25:27.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.335</Modified>
+      <Modified>2023-10-05T21:25:28.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.314</Modified>
+      <Modified>2023-10-05T21:25:22.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.316</Modified>
+      <Modified>2023-10-05T21:25:22.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.318</Modified>
+      <Modified>2023-10-05T21:25:23.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.320</Modified>
+      <Modified>2023-10-05T21:25:24.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.322</Modified>
+      <Modified>2023-10-05T21:25:24.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.358</Modified>
+      <Modified>2023-10-05T21:25:31.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.362</Modified>
+      <Modified>2023-10-05T21:25:32.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.366</Modified>
+      <Modified>2023-10-05T21:25:33.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.372</Modified>
+      <Modified>2023-10-05T21:25:33.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-10-05T20:18:18.387</Modified>
+      <Modified>2023-10-05T21:25:34.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\WORK seleena\N_WidgetBoard\WidgetBoard\WidgetBoard\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
