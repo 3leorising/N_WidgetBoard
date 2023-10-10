@@ -1,4 +1,6 @@
-﻿namespace WidgetBoard.ViewModels;
+﻿using WidgetBoard.Models;
+
+namespace WidgetBoard.ViewModels;
 
 public class BoardDetailsPageViewModel : BaseViewModel
 {
@@ -6,7 +8,11 @@ public class BoardDetailsPageViewModel : BaseViewModel
     public string BoardName
     {
         get => boardName;
-        set => SetProperty(ref boardName, value);
+        set
+        {
+            SetProperty(ref boardName, value);
+            SaveCommand.ChangeCanExecute();
+        }
     }
 
     private bool isFixed = true;
@@ -29,5 +35,27 @@ public class BoardDetailsPageViewModel : BaseViewModel
     {
         get => numberOfRows;
         set => SetProperty(ref numberOfRows, value);
+    }
+
+    public Command SaveCommand { get; }
+
+    public BoardDetailsPageViewModel()
+    {
+        SaveCommand = new Command(
+            () => Save(), 
+            () => !string.IsNullOrWhiteSpace(BoardName));
+    }
+
+    private void Save()
+    {
+        var board = new Board
+        {
+            Name = BoardName,
+            Layout = new FixedLayout
+            {
+                NumberOfColumns = NumberOfColumns,
+                NumberOfRows = NumberOfRows,
+            }
+        };
     }
 }
