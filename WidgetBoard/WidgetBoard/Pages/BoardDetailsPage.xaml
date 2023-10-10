@@ -17,18 +17,17 @@
                        FontAttributes="Bold" />
                 <HorizontalStackLayout>
                     <RadioButton x:Name="FixedRadioButton"
-                                 Content="Fixed" />
+                                 Content="Fixed"
+                                 IsChecked="{Binding IsFixed}" />
                     <!--<RadioButton Content = "Freeform" />-->
                 </HorizontalStackLayout>
-                <VerticalStackLayout>
-                    <Label Text="Number of Columns"
+                <VerticalStackLayout IsVisible="{Binding IsChecked, Source={x:Reference FixedRadioButton}}">
+                    <Label Text="{Binding NumberOfColumns}"
                            FontAttributes="Bold" />
-
                     <Entry Keyboard="Numeric" />
 
-                    <Label Text="Number of Rows"
+                    <Label Text="{Binding NumberOfRows}"
                            FontAttributes="Bold" />
-                    
                     <Entry Keyboard="Numeric" />
                 </VerticalStackLayout>
             </VerticalStackLayout>

@@ -3,10 +3,18 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:viewmodels="clr-namespace:WidgetBoard.ViewModels"
        x:Class="WidgetBoard.Views.ClockWidgetView"
-       FontSize="60"
+       FontSize="80"
        VerticalOptions="Center"
-       HorizontalOptions="Center"
-       x:DataType="viewmodels:ClockWidgetViewModel"
-       Text="{Binding Time}">
-    
+       HorizontalOptions="Center">
+
+       <Label.BindingContext>
+        <viewmodels:ClockWidgetViewModel />
+       </Label.BindingContext>
+
+    <Label.Text>
+        <MultiBinding StringFormat="{}{0} {1}">
+            <Binding Path="Date" />
+            <Binding Path="Time" />
+        </MultiBinding>
+    </Label.Text>
 </Label>

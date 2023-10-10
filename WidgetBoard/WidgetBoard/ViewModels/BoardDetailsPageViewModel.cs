@@ -8,4 +8,26 @@ public class BoardDetailsPageViewModel : BaseViewModel
         get => boardName;
         set => SetProperty(ref boardName, value);
     }
+
+    private bool isFixed = true;
+    private int numberOfColumns = 3;
+    private int numberOfRows = 2;
+
+    public bool IsFixed
+    {
+        get => isFixed;
+        set => SetProperty(ref isFixed, value);
+    }
+
+    public int NumberOfColumns
+    {
+        get => numberOfColumns;
+        set => SetProperty(ref numberOfColumns, value);
+    }
+
+    public int NumberOfRows
+    {
+        get => numberOfRows;
+        set => SetProperty(ref numberOfRows, value);
+    }
 }
