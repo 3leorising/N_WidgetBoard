@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="WidgetBoard.AppShell"
+    xmlns:viewmodels="clr-namespace:WidgetBoard.ViewModels"
+    xmlns:models="clr-namespace:WidgetBoard.Models"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:WidgetBoard"
     xmlns:pages="clr-namespace:WidgetBoard.Pages"
+    x:DataType="viewmodels:AppShellViewModel"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         ContentTemplate="{DataTemplate pages:BoardDetailsPage}" />
+
+    <Shell.FlyoutHeader>
+        <Label
+            Text="My boards"
+            FontSize="20"
+            HorizontalTextAlignment="Center" />
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutContent>
+        <CollectionView
+            ItemsSource="{Binding Boards}"
+            SelectionMode="{Binding CurrentBoard}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate
+                    x:DataType="models:Board">
+                    <Label
+                        Text="{Binding Name}"
+                        FontSize="20"
+                        Padding="10,0,0,0" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Shell.FlyoutContent>
 
 </Shell>

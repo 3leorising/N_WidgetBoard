@@ -44,6 +44,7 @@ public class BoardDetailsPageViewModel : BaseViewModel
         SaveCommand = new Command(
             () => Save(), 
             () => !string.IsNullOrWhiteSpace(BoardName));
+        
     }
 
     private void Save()
