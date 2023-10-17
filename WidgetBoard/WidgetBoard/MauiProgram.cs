@@ -20,6 +20,7 @@ namespace WidgetBoard
             AddPage<BoardDetailsPage, BoardDetailsPageViewModel>(builder.Services, "boarddetails");
             AddPage<FixedBoardPage, FixedBoardPageViewModel>(builder.Services, "fixedboard");
             builder.Services.AddTransient<AppShellViewModel>();
+            builder.Services.AddTransient<AppShell>();
 
 #if DEBUG
             builder.Logging.AddDebug();
