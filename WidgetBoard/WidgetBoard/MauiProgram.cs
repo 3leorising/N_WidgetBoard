@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using WidgetBoard.Pages;
 using WidgetBoard.ViewModels;
+using WidgetBoard.Views;
 
 namespace WidgetBoard
 {
@@ -22,12 +23,21 @@ namespace WidgetBoard
             builder.Services.AddTransient<AppShellViewModel>();
             builder.Services.AddTransient<AppShell>();
 
+            builder.Services.AddSingleton<WidgetFactory>();
+
+            WidgetFactory.RegisterWidget<ClockWidgetView, ClockWidgetViewModel>("Clock");
+            builder.Services.AddTransient<ClockWidgetView>();
+         builder.Services.AddTransient<ClockWidgetViewModel>();
+
+       builder.Services.AddSingleton<WidgetTemplateSelector>();
+
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
         }
+
         private static IServiceCollection AddPage<TPage, TViewModel>(IServiceCollection services, string route) 
             where TPage : Page 
             where TViewModel : BaseViewModel
