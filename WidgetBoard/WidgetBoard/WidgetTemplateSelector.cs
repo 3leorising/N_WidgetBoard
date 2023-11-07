@@ -1,6 +1,6 @@
 ﻿using WidgetBoard.ViewModels;
 
-namespace WidgetBoard;
+namespace WidgetBoard.Views;
 
 public class WidgetTemplateSelector : DataTemplateSelector
 {

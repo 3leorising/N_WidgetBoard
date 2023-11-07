@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using WidgetBoard.Views;
 using WidgetBoard.Models;
 
 namespace WidgetBoard.ViewModels;

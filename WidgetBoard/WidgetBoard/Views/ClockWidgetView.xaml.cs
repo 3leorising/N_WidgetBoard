@@ -4,7 +4,7 @@ namespace WidgetBoard.Views;
 
 public partial class ClockWidgetView : Label, IWidgetView
 {
-	public ClockWidgetView(ClockWidgetViewModel clockWidgetViewModel)
+    public ClockWidgetView(ClockWidgetViewModel clockWidgetViewModel)
 	{
 		InitializeComponent();
 		WidgetViewModel = clockWidgetViewModel;
