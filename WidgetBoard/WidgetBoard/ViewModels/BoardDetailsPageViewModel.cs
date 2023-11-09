@@ -5,6 +5,13 @@ namespace WidgetBoard.ViewModels;
 public class BoardDetailsPageViewModel : BaseViewModel
 {
     private string boardName;
+
+    private bool isFixed = true;
+    private int numberOfColumns = 3;
+    private int numberOfRows = 2;
+
+    private readonly ISemanticScreenReader semanticScreenReader;
+
     public string BoardName
     {
         get => boardName;
@@ -14,10 +21,6 @@ public class BoardDetailsPageViewModel : BaseViewModel
             SaveCommand.ChangeCanExecute();
         }
     }
-
-    private bool isFixed = true;
-    private int numberOfColumns = 3;
-    private int numberOfRows = 2;
 
     public bool IsFixed
     {
@@ -39,15 +42,16 @@ public class BoardDetailsPageViewModel : BaseViewModel
 
     public Command SaveCommand { get; }
 
-    public BoardDetailsPageViewModel()
+    public BoardDetailsPageViewModel(ISemanticScreenReader semanticScreenReader)
     {
+        this.semanticScreenReader = semanticScreenReader;
+
         SaveCommand = new Command(
-            () => Save(), 
+            () => Save(),
             () => !string.IsNullOrWhiteSpace(BoardName));
-        
     }
 
-    private void Save()
+    private async void Save()
     {
         var board = new Board
         {
@@ -58,5 +62,11 @@ public class BoardDetailsPageViewModel : BaseViewModel
                 NumberOfRows = NumberOfRows,
             }
         };
+
+        semanticScreenReader.Announce($"A new board with the name {BoardName} was created successfully.");
+
+        await Shell.Current.GoToAsync("fixedboard", new Dictionary<string, object>
+        {
+            { "Board", board }, });
     }
 }

@@ -31,6 +31,8 @@ namespace WidgetBoard
 
        builder.Services.AddSingleton<WidgetTemplateSelector>();
 
+            builder.Services.AddSingleton(SemanticScreenReader.Default);
+
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
