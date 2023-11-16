@@ -7,6 +7,13 @@ public class FixedLayoutManager : BindableObject, ILayoutManager
 {
     public static readonly BindableProperty NumberOfColumnsProperty = BindableProperty.Create(nameof(NumberOfColumns), typeof(int), typeof(FixedLayoutManager), defaultBindingMode: BindingMode.OneWay, propertyChanged: OnNumberOfColumnsChanged);
 
+    public static readonly BindableProperty NumberOfRowsProperty = BindableProperty.Create(nameof(NumberOfRows), typeof(int), typeof(FixedLayoutManager), defaultBindingMode: BindingMode.OneWay, propertyChanged: OnNumberOfRowsChanged);
+
+    public static readonly BindableProperty PlacerholderTappedCommandProperty = BindableProperty.Create(nameof(PlaceholderTappedCommand), typeof(ICommand), typeof(FixedLayoutManager));
+
+    private BoardLayout board;
+    private bool isInitialised;
+
     public int NumberOfColumns
     {
         get => (int)GetValue(NumberOfColumnsProperty);
@@ -19,8 +26,6 @@ public class FixedLayoutManager : BindableObject, ILayoutManager
         manager.InitialiseGrid();
     }
 
-    public static readonly BindableProperty NumberOfRowsProperty = BindableProperty.Create(nameof(NumberOfRows), typeof(int), typeof(FixedLayoutManager), defaultBindingMode: BindingMode.OneWay, propertyChanged: OnNumberOfRowsChanged);
-
     public int NumberOfRows
     {
         get => (int)GetValue(NumberOfRowsProperty);
@@ -32,9 +37,6 @@ public class FixedLayoutManager : BindableObject, ILayoutManager
         var manager = (FixedLayoutManager)bindable;
         manager.InitialiseGrid();
     }
-
-
-    public static readonly BindableProperty PlacerholderTappedCommandProperty = BindableProperty.Create(nameof(PlaceholderTappedCommand), typeof(ICommand), typeof(FixedLayoutManager));
 
     public ICommand PlaceholderTappedCommand
     {
@@ -52,10 +54,6 @@ public class FixedLayoutManager : BindableObject, ILayoutManager
             }
         }
     }
-
-
-    private BoardLayout board;
-    private bool isInitialised;
 
     public BoardLayout Board
     {
