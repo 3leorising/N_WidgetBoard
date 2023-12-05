@@ -1,4 +1,5 @@
-﻿using WidgetBoard.Models;
+﻿using WidgetBoard.Data;
+using WidgetBoard.Models;
 
 namespace WidgetBoard.ViewModels;
 
@@ -11,6 +12,8 @@ public class BoardDetailsPageViewModel : BaseViewModel
     private int numberOfRows = 2;
 
     private readonly ISemanticScreenReader semanticScreenReader;
+    
+    private readonly IBoardRepository boardRepository;
 
     public string BoardName
     {
@@ -42,9 +45,10 @@ public class BoardDetailsPageViewModel : BaseViewModel
 
     public Command SaveCommand { get; }
 
-    public BoardDetailsPageViewModel(ISemanticScreenReader semanticScreenReader)
+    public BoardDetailsPageViewModel(ISemanticScreenReader semanticScreenReader, IBoardRepository boardRepository)
     {
         this.semanticScreenReader = semanticScreenReader;
+        this.boardRepository = boardRepository;
 
         SaveCommand = new Command(
             () => Save(),
@@ -56,12 +60,11 @@ public class BoardDetailsPageViewModel : BaseViewModel
         var board = new Board
         {
             Name = BoardName,
-            Layout = new FixedLayout
-            {
-                NumberOfColumns = NumberOfColumns,
-                NumberOfRows = NumberOfRows,
-            }
+            NumberOfColumns = NumberOfColumns,
+            NumberOfRows = NumberOfRows,
         };
+
+        this.boardRepository.CreateBoard(board);
 
         semanticScreenReader.Announce($"A new board with the name {BoardName} was created successfully.");
 
