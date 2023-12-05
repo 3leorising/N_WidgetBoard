@@ -18,7 +18,7 @@ public class AppShellViewModel : BaseViewModel
         this.boardRepository = boardRepository;
         this.preferences = preferences;
 
-        Boards.Add(
+        /*Boards.Add(
             new Board
             {
                 Name = "My first board",
@@ -27,7 +27,7 @@ public class AppShellViewModel : BaseViewModel
                     NumberOfColumns = 3,
                     NumberOfRows = 2,
                 }
-            });
+            });*/
     }
 
     public Board CurrentBoard

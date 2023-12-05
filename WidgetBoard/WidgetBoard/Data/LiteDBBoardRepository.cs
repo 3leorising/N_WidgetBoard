@@ -47,9 +47,9 @@ public class LiteDBBoardRepository : IBoardRepository
     public Board LoadBoard(int boardId)
     {
         var board = boardCollection.FindById(boardId);
-        var baordWidgets = boardWidgetCollection.Find(w => w.BoardId == boardId).ToList;
+        var boardWidgets = boardWidgetCollection.Find(w => w.BoardId == boardId).ToList();
 
-        board.BoardWidgets = BoardWidgets;
+        board.BoardWidgets = boardWidgets;
 
         return board;
     }

@@ -19,12 +19,12 @@ public class FixedBoardPageViewModel : BaseViewModel, IQueryAttributable
 
         BoardName = board.Name;
 
-        NumberOfColumns = ((FixedLayout)board.Layout).NumberOfColumns;
-        NumberOfRows = ((FixedLayout)board.Layout).NumberOfRows;
+        NumberOfColumns = board.NumberOfColumns;
+        NumberOfRows = board.NumberOfRows;
 
         foreach (var boardWidget in board.BoardWidgets)
         {
-            var widgetViewmodel = WidgetFactory.CreateWidgetViewModel(boardWidget.WidgetType);
+            var widgetViewmodel = widgetFactory.CreateWidgetViewModel(boardWidget.WidgetType);
 
             widgetViewmodel.Position = boardWidget.Position;
                 
@@ -122,7 +122,7 @@ public class FixedBoardPageViewModel : BaseViewModel, IQueryAttributable
         var boardWidget = new BoardWidget
         {
             BoardId = board.Id,
-            PositionChangedEventArgs = widgetViewModel.Position,
+            Position = widgetViewModel.Position,
             WidgetType = widgetViewModel.Type
         };
 
