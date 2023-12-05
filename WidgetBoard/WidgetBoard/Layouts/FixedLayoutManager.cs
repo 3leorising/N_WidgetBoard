@@ -5,11 +5,23 @@ namespace WidgetBoard.Layouts;
 
 public class FixedLayoutManager : BindableObject, ILayoutManager
 {
-    public static readonly BindableProperty NumberOfColumnsProperty = BindableProperty.Create(nameof(NumberOfColumns), typeof(int), typeof(FixedLayoutManager), defaultBindingMode: BindingMode.OneWay, propertyChanged: OnNumberOfColumnsChanged);
+    public static readonly BindableProperty NumberOfColumnsProperty = BindableProperty.Create(
+        nameof(NumberOfColumns), 
+        typeof(int), typeof(FixedLayoutManager), 
+        defaultBindingMode: BindingMode.OneWay, 
+        propertyChanged: OnNumberOfColumnsChanged);
 
-    public static readonly BindableProperty NumberOfRowsProperty = BindableProperty.Create(nameof(NumberOfRows), typeof(int), typeof(FixedLayoutManager), defaultBindingMode: BindingMode.OneWay, propertyChanged: OnNumberOfRowsChanged);
+    public static readonly BindableProperty NumberOfRowsProperty = BindableProperty.Create(
+        nameof(NumberOfRows), 
+        typeof(int), 
+        typeof(FixedLayoutManager), 
+        defaultBindingMode: BindingMode.OneWay, 
+        propertyChanged: OnNumberOfRowsChanged);
 
-    public static readonly BindableProperty PlacerholderTappedCommandProperty = BindableProperty.Create(nameof(PlaceholderTappedCommand), typeof(ICommand), typeof(FixedLayoutManager));
+    public static readonly BindableProperty PlacerholderTappedCommandProperty = BindableProperty.Create(
+        nameof(PlaceholderTappedCommand), 
+        typeof(ICommand), 
+        typeof(FixedLayoutManager));
 
     private BoardLayout board;
     private bool isInitialised;
